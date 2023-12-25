@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  position: fixed;
+}
+header .container {
+  width: 95%;
+  margin: auto;
+}
+header .container nav .collapseDiv {
+  justify-content: flex-end;
+}
+header .container nav .collapseDiv li a {
+  padding: 5px;
+  font-weight: 500;
+  color: white;
+}
+
+#newtrip {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/slider2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#newtrip .container {
+  width: 95%;
+  padding: 30px;
+}
+#newtrip .container .row {
+  padding: 30px;
+}
+#newtrip .container .row .triptext {
+  text-align: center;
+  padding: 30px;
+}
+#newtrip .container .row .triptext h5 {
+  color: white;
+  padding: 30px;
+}
+#newtrip .container .row .triptext h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  padding: 25px;
+}
+#newtrip .container .row .triptext p {
+  color: white;
+  padding-bottom: 25px;
+}
+#newtrip .container .row .triptext .discover {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#newtrip .container .row .triptext .discover button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#apisection .divbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#apisection .divbtn #btn {
+  font-size: 15px;
+  background-color: rgb(165, 81, 42);
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container {
+  width: 95%;
+  border: 2px solid rgb(165, 81, 42);
+}
+#apisection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#apisection .container .row .apitext {
+  text-align: center;
+  padding: 30px;
+}
+#apisection .container .row .apitext h3 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+#apisection .container .row .apitext p {
+  color: grey;
+}
+#apisection .container .row .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+#apisection .container .row .buttons input {
+  width: 90px;
+  height: 33px;
+  padding-left: 20px;
+  border: 2px solid rgb(165, 81, 42);
+}
+#apisection .container .row .buttons input #inpp {
+  padding: 10px;
+}
+#apisection .container .row .buttons button {
+  font-size: 15px;
+  background-color: rgb(165, 81, 42);
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  border: none;
+  margin-left: -10px;
+}
+#apisection .container .row .buttons button a i {
+  color: white;
+}
+#apisection .container .row .buttons button a i:hover {
+  color: rgb(165, 81, 42);
+}
+#apisection .container .row .buttons button:hover {
+  background-color: white;
+  color: rgb(165, 81, 42);
+  transition: 0.5s;
+}
+#apisection .container .row #apidiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#apisection .container .row #apidiv .boxDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(165, 81, 42);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn {
+  font-size: 15px;
+  background-color: rgb(165, 81, 42);
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn:hover {
+  background-color: white;
+  color: rgb(165, 81, 42);
+  transition: 0.5s;
+}
+
+#latest {
+  width: 100%;
+}
+#latest .container {
+  width: 95%;
+}
+#latest .container .row {
+  padding: 30px;
+}
+#latest .container .row .latesttext {
+  padding: 30px;
+  text-align: center;
+}
+#latest .container .row .latesttext h3 {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#latest .container .row .latesttext p {
+  padding-bottom: 30px;
+  color: grey;
+}
+#latest .container .row .latesttext img {
+  max-width: 100%;
+}
+#latest .container .row .latesttext h6 {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#latest .container .row .latesttext span {
+  color: grey;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 215, 204);
+  color: gray;
+}
+footer p {
+  color: black;
+  margin-top: 10px;
+}
+
+#formimp .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#formimp .container .formsec {
+  padding: 20px;
+}
+#formimp .container .formsec h4 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+#formimp .container .formsec p {
+  color: grey;
+  text-align: center;
+}
+#formimp .container #myFORM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#formimp .container #myFORM #myFORM input {
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid rgb(232, 142, 232);
+  border-radius: 25px;
+}
+#formimp .container #myFORM #submit {
+  background-color: rgb(165, 81, 42);
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+#formimp .container #submit:hover {
+  background-color: red;
+  color: rgb(255, 255, 255);
+}
